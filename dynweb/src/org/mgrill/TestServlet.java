@@ -1,4 +1,4 @@
-package org.mgrill.webapp;
+package org.mgrill;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -33,7 +33,7 @@ public class TestServlet extends HttpServlet {
 	        PrintWriter writer = resp.getWriter();
 	        writer.println(PAGE_HEADER);
 	        writer.println("<h1>" + helloService.createHelloMessage("World222") + "</h1>");
-	        writer.println("<h1>WW33344556677</h1>");
+	        writer.println("<h1>demo24566</h1>");
 	        writer.println(PAGE_FOOTER);
 	        writer.close();
 	}
